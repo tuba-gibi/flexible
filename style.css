@@ -64,10 +64,15 @@ a {
   font-size: 32px;
   text-decoration: none;
 }
-@media screen (max-width: 700px;) {
+@media screen (min-width:300px) && (max-width: 700px) {
   .header {
     flex-wrap: wrap;
   }
   section {
+    overflow: hidden;
+    background-color: gray;
+  }
+  .foot p {
+    overflow: hidden;
   }
 }
